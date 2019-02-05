@@ -2,15 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
-# infile = open("sitemap.xml","r")
-#
-# contents = infile.read()
-#
-# soup = BeautifulSoup(contents,'xml')
-#
-# for titles in soup.find_all('urlset'):
-#     urls= titles.url.text
-#     print(urls)
 url_list= []
 activity_ids= []
 activity_names= []
